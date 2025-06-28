@@ -11,10 +11,10 @@ async function bootstrap() {
   app.use(helmet());
 
   // CORS
-  app.enableCors({
-    origin: ['https://nest-backend-4low.onrender.com'],
-    credentials: true,
-  });
+  // app.enableCors({
+  //   origin: ['https://nest-backend-4low.onrender.com'],
+  //   credentials: true,
+  // });
 
   // Global validation pipe
   app.useGlobalPipes(
